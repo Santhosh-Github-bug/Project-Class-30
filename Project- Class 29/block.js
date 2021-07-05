@@ -25,7 +25,7 @@ class Block{
 
         this.Visiblity = this.Visiblity-5;
         
-        tint(255,this.visiblity);
+        tint(255,this.Visiblity);
         image(this.image, this.body.position.x, this.body.position.y,this.width, this.height);
         
        
